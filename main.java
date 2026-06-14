@@ -1,4 +1,4 @@
-public class main {
+class Main {
     public static void main(String[] args) {
         //byte- 1 [-128 to 127]
         //short- 2 [-32,768 to 32,767]
@@ -19,13 +19,26 @@ public class main {
        // BOOLEAN isJavaFun = true;
 
        //NON PRIMITIVE DATA TYPES
-       String name = "Ayushi singh";
-       System.out.println(name.length());
-       String name1=new String("Ayushi singh yadav");
-       System.out.println(name1.length());
+    String name = "Ayushi singh";
+    System.out.println(name);
+       //System.out.println(name.length());
+       //String name1=new String("Ayushi singh yadav");
+       //System.out.println(name1.length());
+       // Concatenation
+        String firstName = "Ayushi";
+        String lastName = "Singh";
+        String fullName = firstName + " " + lastName;
+        //System.out.println(fullName);
+        //charAt()
+        //System.out.println(name.charAt(2)); 
+        //replace()
+        String newName = firstName.replace("Ayushi", "Rahul");
+        System.out.println(firstName);
 
-        System.out.println("Hello, World!");
-        System.out.println(name1);
+
+
+        
+        
     }
     
 }
