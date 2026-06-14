@@ -33,11 +33,10 @@ class Main {
         //System.out.println(name.charAt(2)); 
         //replace()
         String newName = firstName.replace("Ayushi", "Rahul");
-        System.out.println(firstName);
-
-
-
+        System.out.println(newName);
+        System.out.println(fullName.substring(0,6));
         
+
         
     }
     
