@@ -1,4 +1,6 @@
-class Main {
+ import java.util.Arrays;
+public class Main {
+
     public static void main(String[] args) {
         //byte- 1 [-128 to 127]
         //short- 2 [-32,768 to 32,767]
@@ -16,7 +18,7 @@ class Main {
         //int age = 25;
         //float age = 25.5f;
         //char grade = 'A';
-       // BOOLEAN isJavaFun = true;
+       // Boolean isJavaFun = true;
 
        //NON PRIMITIVE DATA TYPES
     String name = "Ayushi singh";
@@ -35,7 +37,30 @@ class Main {
         String newName = firstName.replace("Ayushi", "Rahul");
         System.out.println(newName);
         System.out.println(fullName.substring(0,6));
+        // srtring are immutable in java
+        int[]marks= {11,22,37,46,50};
+        int[]marks1= new int[6];
+        marks1[0]=45;
+        marks1[1]=80;
+        marks1[2]=58;
+        marks1[3]=90;
+        marks1[4]=75;
+        marks1[5]=50;
+        System.out.println(marks1[4]);
+        System.out.println(marks1.length);
+        //sorted array
+        Arrays.sort(marks1);
+        System.out.println(marks1[5]);
+        // 2D array
+        int[][] marks2d={{98,99,86},{85,90,95}};
+        System.out.println(marks2d[0][2]);
+        // casting
+        double price=100.00F;
+        double finalPrice=price+18.00;
+        System.out.println(finalPrice);
         
+
+
 
         
     }
